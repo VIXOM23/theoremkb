@@ -1,0 +1,13 @@
+diff --git a/node_modules/rest-hooks/lib/react-integration/provider/CacheProvider.js b/node_modules/rest-hooks/lib/react-integration/provider/CacheProvider.js
+index 1ed6ca9..901223c 100755
+--- a/node_modules/rest-hooks/lib/react-integration/provider/CacheProvider.js
++++ b/node_modules/rest-hooks/lib/react-integration/provider/CacheProvider.js
+@@ -4,7 +4,7 @@ import masterReducer, { initialState as defaultState } from "../../state/reducer
+ import NetworkManager from "../../state/NetworkManager";
+ import SubscriptionManager from "../../state/SubscriptionManager";
+ import PollingSubscription from "../../state/PollingSubscription";
+-import useEnhancedReducer from '@rest-hooks/use-enhanced-reducer';
++import { useEnhancedReducer } from '@rest-hooks/use-enhanced-reducer';
+ import React, { useEffect, useMemo } from 'react';
+ 
+ /** Controller managing state of the REST cache and coordinating network requests. */

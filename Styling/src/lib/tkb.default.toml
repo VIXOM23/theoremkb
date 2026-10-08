@@ -1,7 +1,7 @@
 ## TheoremKB configuration
 
 # directory in which tkb will store its metadata.
-# data_path= 
+data_path= "Users/mike/temp"
 
 # invalidate feature cache. useful when features have been updated.
 rebuild_features  = false 

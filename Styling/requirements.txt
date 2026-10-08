@@ -12,7 +12,7 @@ lxml
 numpy
 pandas
 shortuuid
-sklearn
+scikit-learn
 sklearn_crfsuite
 termcolor
 tqdm
